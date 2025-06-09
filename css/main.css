@@ -185,15 +185,19 @@
     height: 1734px;
 }
 
-.gray-block .content {
+.content {
     margin-top: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 456px;
+    width: 720px;
     margin-left: auto;
     margin-right: auto;
     gap: 30px;
+
+    p {
+        text-align: center;
+    }
 }
 
 .car-collection {
@@ -323,3 +327,63 @@
     margin-right: auto;
     margin-top: 100px;
 }
+
+.gray-box {
+    background-color: #F5F5F5;
+    width: 740px;
+    height: 638px;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-top: 50px;
+    position: relative;
+}
+
+.content-blocks {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: -500px;
+    gap: 20px;
+}
+
+
+.content-block {
+    width: 592px;
+    height: 170px;
+    display: flex;
+    padding: 30px;
+    border-radius: 24px;
+    border: 1px solid #0000001A;
+    background-color: white;
+    
+    .sv {
+        background-color: #F5F5F5;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 16px;
+        min-width: 54px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+        margin-left: 20px;
+        align-items: start;
+        justify-content: space-between;
+
+
+        p {
+            text-align: start;
+        }
+    }
+}
+
+
+
+
