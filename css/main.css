@@ -510,6 +510,57 @@
     }
 }
 
+.footer-nav {
+    border-top: #FFFFFF1A solid 1px;
+    width: 100%;
+    height: 113px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .c {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        width: 183px;
+        height: 29px;
+    }
+
+    .footer-nav {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+    }
+
+    .socials {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        svg {
+            width: 24px;
+            height: 24px;
+        }
+    }
+}
 
 
 
