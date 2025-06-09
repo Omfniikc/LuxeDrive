@@ -168,3 +168,12 @@
     height: 120px;
     gap: 10px;
 }
+
+.body-types {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
