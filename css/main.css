@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: black;
+
+}
+
+.header-container {
+    display: flex;
+    color: white;
+    height: 50px;
+    width: 80%;
+    justify-content:space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    .auth {
+        width: 162px;
+        height: 40px;
+        border-radius: 48px;
+        border: 1px solid white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+.car-block {
+    background-color: black;
+    color: white;
+
+    .lan {
+        width: 982px;
+        top: 149px;
+        position: absolute;
+        font-size: 64px;
+        line-height: 120%;
+        text-align: center;
+        left: 229px;
+    }
+    
+}
+
+
+.container {
+    max-width: 1216px;
+    height: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pick-up-location {
+    border-radius: 16px;
+    width: 1216px;
+    height: 145px;
+    margin-top: -70px;
+    background-color: #fffffff7;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+
+.pick-up-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    padding: 0 20px;
+
+    .form-item {
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        max-width: 300px;
+        justify-content: center;
+        
+
+        label {
+            font-size: 16px;
+            color: #333;
+        }
+
+        input {
+            padding: 10px;
+            padding-left: 30px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            position: relative;
+        }
+    }
+
+    .date {
+        width: 200px;
+        
+        input {
+            padding-left: 10px;
+        }
+    }
+
+    .submit-button {
+        background-color: #000000;
+        color: white;
+        padding: 10px 20px;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        width: 175px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        padding-left: 20px;
+    }
+    svg {
+        margin-left: 5px;
+    }
+}
